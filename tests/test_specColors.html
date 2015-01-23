@@ -1,0 +1,50 @@
+<html>
+<head>
+	<title>Color Code Test spec Color with Data</title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="./rainbowvis.js"></script>
+	<script type="text/javascript" src="../jquery.colorCode.js"></script>
+
+	<script type="text/javascript">
+		$( document ).ready(function() {
+    		$(".first").colorCode({
+    			colors: ["blue", "yellow", "green", "red"],
+    			proportional: false,
+    			useDataTag: "rank"
+    		});
+		});
+	</script>
+</head>
+<body>
+	<h1>Spec Color with Data</h1>
+	<div>
+		<div class="first" data-rank="1">Blue</div>
+		<div class="first" data-rank="10">Yellow</div>
+		<div class="first" data-rank="20">Green</div>
+		<div class="first" data-rank="40">Red</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
